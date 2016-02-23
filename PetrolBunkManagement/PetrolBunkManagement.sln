@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetrolBunkManagement", "PetrolBunkManagement\PetrolBunkManagement.csproj", "{E0C4BA88-E2D6-45FA-8956-9C6045FB118E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0C4BA88-E2D6-45FA-8956-9C6045FB118E}.Debug|x86.ActiveCfg = Debug|x86
+		{E0C4BA88-E2D6-45FA-8956-9C6045FB118E}.Debug|x86.Build.0 = Debug|x86
+		{E0C4BA88-E2D6-45FA-8956-9C6045FB118E}.Release|x86.ActiveCfg = Release|x86
+		{E0C4BA88-E2D6-45FA-8956-9C6045FB118E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

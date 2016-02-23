@@ -1,0 +1,7 @@
+G:\Petrol_bunk\Bunk_management_app\PetrolBunkManagement\PetrolBunkManagement\bin\Debug\PetrolBunkManagement.exe
+G:\Petrol_bunk\Bunk_management_app\PetrolBunkManagement\PetrolBunkManagement\bin\Debug\PetrolBunkManagement.pdb
+G:\Petrol_bunk\Bunk_management_app\PetrolBunkManagement\PetrolBunkManagement\obj\x86\Debug\PetrolBunkManagement.AppForms.LoginForm.resources
+G:\Petrol_bunk\Bunk_management_app\PetrolBunkManagement\PetrolBunkManagement\obj\x86\Debug\PetrolBunkManagement.Properties.Resources.resources
+G:\Petrol_bunk\Bunk_management_app\PetrolBunkManagement\PetrolBunkManagement\obj\x86\Debug\PetrolBunkManagement.csproj.GenerateResource.Cache
+G:\Petrol_bunk\Bunk_management_app\PetrolBunkManagement\PetrolBunkManagement\obj\x86\Debug\PetrolBunkManagement.exe
+G:\Petrol_bunk\Bunk_management_app\PetrolBunkManagement\PetrolBunkManagement\obj\x86\Debug\PetrolBunkManagement.pdb
