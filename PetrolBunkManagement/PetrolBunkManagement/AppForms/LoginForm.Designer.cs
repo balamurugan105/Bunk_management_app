@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.login_info_container = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pwd_box = new System.Windows.Forms.TextBox();
+            this.uname_box = new System.Windows.Forms.TextBox();
             this.login_exit_but = new System.Windows.Forms.Button();
             this.Login_but = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.login_info_container.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -43,8 +43,8 @@
             this.login_info_container.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.login_info_container.Controls.Add(this.label2);
             this.login_info_container.Controls.Add(this.label1);
-            this.login_info_container.Controls.Add(this.textBox2);
-            this.login_info_container.Controls.Add(this.textBox1);
+            this.login_info_container.Controls.Add(this.pwd_box);
+            this.login_info_container.Controls.Add(this.uname_box);
             this.login_info_container.Controls.Add(this.login_exit_but);
             this.login_info_container.Controls.Add(this.Login_but);
             this.login_info_container.Location = new System.Drawing.Point(299, 33);
@@ -54,6 +54,45 @@
             this.login_info_container.TabStop = false;
             this.login_info_container.UseCompatibleTextRendering = true;
             this.login_info_container.UseWaitCursor = true;
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(20, 106);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(104, 20);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Password";
+            this.label2.UseWaitCursor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(20, 62);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(80, 17);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "User name";
+            this.label1.UseWaitCursor = true;
+            // 
+            // pwd_box
+            // 
+            this.pwd_box.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pwd_box.Location = new System.Drawing.Point(155, 106);
+            this.pwd_box.Name = "pwd_box";
+            this.pwd_box.PasswordChar = '*';
+            this.pwd_box.Size = new System.Drawing.Size(143, 20);
+            this.pwd_box.TabIndex = 2;
+            this.pwd_box.UseWaitCursor = true;
+            // 
+            // uname_box
+            // 
+            this.uname_box.Location = new System.Drawing.Point(155, 62);
+            this.uname_box.Name = "uname_box";
+            this.uname_box.Size = new System.Drawing.Size(143, 20);
+            this.uname_box.TabIndex = 1;
+            this.uname_box.UseWaitCursor = true;
             // 
             // login_exit_but
             // 
@@ -79,43 +118,6 @@
             this.Login_but.UseWaitCursor = true;
             this.Login_but.Click += new System.EventHandler(this.Login_but_Click);
             // 
-            // textBox1
-            // 
-            this.textBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBox1.Location = new System.Drawing.Point(155, 62);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(143, 20);
-            this.textBox1.TabIndex = 1;
-            // 
-            // textBox2
-            // 
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBox2.Location = new System.Drawing.Point(155, 106);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(143, 20);
-            this.textBox2.TabIndex = 2;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(20, 62);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 17);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "User name";
-            // 
-            // label2
-            // 
-            this.label2.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(20, 106);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(104, 20);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Password";
-            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -138,7 +140,7 @@
         private System.Windows.Forms.Button Login_but;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox pwd_box;
+        private System.Windows.Forms.TextBox uname_box;
     }
 }

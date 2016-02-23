@@ -18,5 +18,9 @@ namespace PetrolBunkManagement
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new LoginForm());
         }
+        static public void ExitApp()
+        {
+            Application.Exit();
+        }
     }
 }
