@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using PetrolBunkManagement.AppForms;
+using PetrolBunkManagement.src;
 using PetrolBunkManagement.src.DatabaseInterface;
 
 namespace PetrolBunkManagement.AppForms
@@ -20,18 +21,8 @@ namespace PetrolBunkManagement.AppForms
 
         private void login_exit_but_Click(object sender, EventArgs e)
         {
-            DialogResult result1 = MessageBox.Show(" Are you sure you want to exit",
-                              "Exit", MessageBoxButtons.YesNoCancel,
-                               MessageBoxIcon.Question,
-                               MessageBoxDefaultButton.Button2);
-            if (result1 == DialogResult.Yes)
-            {
-                Program.ExitApp();
-            }
-            else
-            {
-                this.Show();
-            }
+            cUtility lutil = new cUtility();
+            lutil.shutdown(this);
         }
 
         private void Login_but_Click(object sender, EventArgs e)
@@ -45,7 +36,7 @@ namespace PetrolBunkManagement.AppForms
             {   // Load Homepage              
                 HomePage lHomeForm = new HomePage(uname_box.Text);
                 this.Hide();
-                lHomeForm.Show();
+                lHomeForm.Show();                
             }
         }
         private bool ValidateCredentials()

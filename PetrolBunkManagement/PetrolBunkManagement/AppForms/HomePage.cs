@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-
+using PetrolBunkManagement.src;
 namespace PetrolBunkManagement.AppForms
 {
     public partial class HomePage : Form
@@ -23,21 +23,18 @@ namespace PetrolBunkManagement.AppForms
         public HomePage(string iUsrName)
         {
             InitializeComponent();
-            mUserName = iUsrName;            
+            mUserName = iUsrName;
+            this.Text = "my page";
         }
-        private void Home_exit_Click(object sender, EventArgs e)
+        private void Exit_tab_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Are you sure you want close Bunk management",
-                        "Confirm Exit ", MessageBoxButtons.OKCancel,
-                         MessageBoxIcon.Warning) == DialogResult.OK)
-            {
-                this.Close();
-                Program.ExitApp();
-            }
-            else
-            {
-                this.Show();
-            }
+            cUtility lutil = new cUtility();
+            lutil.shutdown(this);  
+        }
+
+        private void Reports_tab_Click(object sender, EventArgs e)
+        {
+
         }
 
     }

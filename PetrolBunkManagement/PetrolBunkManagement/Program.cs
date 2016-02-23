@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 using PetrolBunkManagement.AppForms;
+using PetrolBunkManagement.src;
 
 namespace PetrolBunkManagement
 {
@@ -17,10 +18,6 @@ namespace PetrolBunkManagement
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new LoginForm());
-        }
-        static public void ExitApp()
-        {
-            Application.Exit();
-        }
+        }      
     }
 }

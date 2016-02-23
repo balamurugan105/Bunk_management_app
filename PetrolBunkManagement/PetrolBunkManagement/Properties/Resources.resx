@@ -124,4 +124,7 @@
   <data name="exit-stop-stop-disable-icone-4911-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\exit-stop-stop-disable-icone-4911-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Car Oil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Home_tab_bk_gnd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
