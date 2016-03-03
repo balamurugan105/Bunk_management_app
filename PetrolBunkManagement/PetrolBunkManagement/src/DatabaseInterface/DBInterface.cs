@@ -8,5 +8,7 @@ namespace PetrolBunkManagement.src.DatabaseInterface
     interface DBInterface
     {
         bool Login(string iusrname,string ipassword);
+        bool isReportsViewAllowed(string iUsrName);
+        List<string> getList(string iQueryCommand);
     }
 }

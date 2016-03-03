@@ -21,7 +21,7 @@ namespace PetrolBunkManagement.Properties {
             get {
                 return defaultInstance;
             }
-        }       
+        }
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

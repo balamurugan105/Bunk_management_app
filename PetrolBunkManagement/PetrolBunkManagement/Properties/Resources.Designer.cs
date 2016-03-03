@@ -63,9 +63,59 @@ namespace PetrolBunkManagement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _00_bml_reports {
+            get {
+                object obj = ResourceManager.GetObject("00-bml-reports", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _120px_Crystal_Clear_action_button_cancel {
+            get {
+                object obj = ResourceManager.GetObject("120px-Crystal_Clear_action_button_cancel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap add_button_new_edit_car_plus_green_equal {
+            get {
+                object obj = ResourceManager.GetObject("add_button_new_edit_car_plus_green_equal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap add_button_new_edit_car_plus_green_equal1 {
+            get {
+                object obj = ResourceManager.GetObject("add_button_new_edit_car_plus_green_equal1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bit_locker_icon {
             get {
                 object obj = ResourceManager.GetObject("bit_locker_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cabinet_hires_2 {
+            get {
+                object obj = ResourceManager.GetObject("cabinet_hires_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +133,59 @@ namespace PetrolBunkManagement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Dock_Icon_Home_Button_by_Moa_isa_JediKnight {
+            get {
+                object obj = ResourceManager.GetObject("Dock_Icon_Home_Button_by_Moa_isa_JediKnight", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap exit_stop_stop_disable_icone_4911_128 {
             get {
                 object obj = ResourceManager.GetObject("exit-stop-stop-disable-icone-4911-128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Home_tab_bk_gnd {
+            get {
+                object obj = ResourceManager.GetObject("Home_tab_bk_gnd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap product {
+            get {
+                object obj = ResourceManager.GetObject("product", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap thumb2 {
+            get {
+                object obj = ResourceManager.GetObject("thumb2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tools_icon {
+            get {
+                object obj = ResourceManager.GetObject("tools_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
